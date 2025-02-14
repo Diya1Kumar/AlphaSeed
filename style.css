@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box; /* Ensures padding/margin don't cause overflow */
 }
+html {
+    scroll-behavior: smooth;
+}
+
 .container{
     padding: 40px 60px;
 }
@@ -117,7 +121,9 @@ nav{
    overflow-y: hidden;
    align-items: center;
 }
-
+.hide{
+    display: none;
+}
 .page2{
     gap: 40px;
     display: flex;
