@@ -110,18 +110,20 @@ nav{
 }
 
 .page2{
-  
+    gap: 40px;
     display: flex;
     width: 100%;
 }
 .page2 ul li{
     font-weight: 400;
+    list-style: disc;
+    color: black;
 }
 .image2{
     width: 40%;
 }
 .image2 img{
-    border-radius: 50px 10px 50px 10px;
+    border-radius: 50px 20px 50px 10px;
 }
 .page2 p{
     margin-bottom: 10px;
