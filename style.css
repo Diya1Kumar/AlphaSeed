@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     box-sizing: border-box; /* Ensures padding/margin don't cause overflow */
 }
 .container{
@@ -11,7 +10,7 @@
 .landing-page {
     height: 100vh;
     width: 100%;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+ /* Prevents horizontal scrolling */
 }
 nav{
     width: 100%;
@@ -116,14 +115,25 @@ nav{
 }
 .page2 ul li{
     font-weight: 400;
-    list-style: disc;
+
     color: black;
+}
+.page2 ul {
+    list-style-type: disc !important;
+}
+.page2 ul li {
+    list-style: disc !important;
 }
 .image2{
     width: 40%;
+    display: flex;
+    overflow-x: hidden;
+ 
+   
+
 }
 .image2 img{
-    border-radius: 50px 20px 50px 10px;
+    border-radius: 120px 50px 120px 50px;
 }
 .page2 p{
     margin-bottom: 10px;
@@ -156,7 +166,7 @@ ul li{
     display: flex;
     width: 100%;
 }
-.page3 ul li{
+.page3 .text ul li{
     list-style: none;
     margin-bottom: 25px;
     font-weight: 400;
@@ -169,8 +179,19 @@ ul li{
     width: 50%;
     margin-left: 140px;
 }
-.image{
-    width:50%;
+.image3{
+    width:40%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+.image3 img{
+    width: 420px;
+   height: 380px;
+    display: block;
+    border-radius: 10px;
 }
 .page3 .text i{
     color: #28a745;
@@ -185,8 +206,7 @@ ul li{
 .footer {
     background-color: #274047;
     color: white;
-    
-    padding: 100px 80px 0px 80px;
+    padding: 100px 80px 0px 120px;
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
@@ -223,6 +243,12 @@ ul li{
 }
 .copyright {
     background-color: #274047;
-    padding: 15px;
+    padding: 50px 0px 80px 120px;
     color: white;
+    font-family: "Raleway", serif;
+    
+}
+.social-icons i{
+    margin-top: 10px;
+    font-size: 22px;
 }
