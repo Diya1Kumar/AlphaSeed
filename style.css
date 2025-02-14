@@ -160,7 +160,12 @@ ul li{
 
 
 
-
+.funding{
+    margin-top: 200px;
+}
+.funding .container{
+    padding:0px;
+}
 .page3{
    
     display: flex;
@@ -244,7 +249,7 @@ ul li{
 .copyright {
     background-color: #274047;
     padding: 50px 0px 80px 120px;
-    color: white;
+    color:gray;
     font-family: "Raleway", serif;
     
 }
