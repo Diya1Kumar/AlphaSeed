@@ -124,11 +124,36 @@ nav{
 .hide{
     display: none;
 }
+
 .page2{
     gap: 40px;
     display: flex;
     width: 100%;
 }
+.social-icons i{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+
+.icon-circle i {
+    font-size: 20px;
+    color:  rgb(38,70,83);; /* LinkedIn brand color */
+}
+
 .page2 ul li{
     font-weight: 400;
 
