@@ -82,6 +82,12 @@ nav{
     width: 100%;
     gap: 30px;
 }
+#menu-icon, #close-icon {
+    display: none;
+    font-size: 24px;
+    color: #274047;
+    cursor: pointer;
+}
 .text{
     width: 40%;
     font-size: 48px;
@@ -97,9 +103,10 @@ nav{
 }
 .image img {
    
-   width: auto;
-   height: 380px;
-    display: block;
+    width: 100%;  /* Makes the image take the full width of the container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures the image fills the container while cropping */
+    object-position: center;
    
 }
 .image {
@@ -170,7 +177,7 @@ ul li{
 
 
 .page3{
-   
+   gap: 30px;
     display: flex;
     width: 100%;
 }
@@ -184,11 +191,11 @@ ul li{
     margin-left: 40px;
 }
 .page3 .text{
-    width: 50%;
+    width: 40%;
     margin-left: 140px;
 }
 .image3{
-    width:40%;
+   
     display: flex;
     text-align: center;
     justify-content: center;
